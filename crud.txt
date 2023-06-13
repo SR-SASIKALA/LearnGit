@@ -1,0 +1,12 @@
+apiVersion: V1
+kind: Pod
+metadata:
+  name: crud
+  namespace: feb6666
+spec:
+  containers:
+  - name: busy
+    image: sasi_img
+    command:
+      -  sleep
+      -  "3600"
